@@ -2,7 +2,7 @@
 Create ChatGPT Like Chatbot using Streamlit &amp; OpenAI 
 
 # Installation
-git clone https://github.com/ChatTeach/ChatWithPDF.git
+git clone https://github.com/ChatTeach/ChatGPTLikeChatBot.git
 
 Create a folder '.streamlit' in this folder create a file 'secrets.toml'
 
