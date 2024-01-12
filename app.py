@@ -9,7 +9,7 @@ api_key = st.text_input("Enter your OpenAI API key:", type="password")
 if api_key:
     try:
         openai.api_key = api_key
-        openai.Completion.create(model="text-davinci-003", prompt="Hello world")  # Test API key
+        openai.Completion.create(model="gpt-3.5-turbo", prompt="Hello world")  # Test API key
         st.success("API key is valid.")
     except openai.error.OpenAIError as e:
         st.error("Invalid API key:", e)
